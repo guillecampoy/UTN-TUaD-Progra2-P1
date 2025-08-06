@@ -1,6 +1,7 @@
 package main.java.main;
 
 import main.java.ejercicio1.HolaMundo;
+import main.java.ejercicio2.VariablesSimples;
 import main.java.interfaces.Ejecutable;
 
 import java.util.Scanner;
@@ -57,7 +58,7 @@ public class Main {
     private static Ejecutable obtenerEjercicio(int opcion) {
         return switch (opcion) {
             case 1 -> new HolaMundo();
-           // case 2 -> new VariablesSimples();
+            case 2 -> new VariablesSimples();
            // case 3 -> new ejercicio3.EntradaUsuario();
            // case 4 -> new ejercicio4.OperacionesAritmeticas();
            // case 5 -> new ejercicio5.CaracteresEscape();
