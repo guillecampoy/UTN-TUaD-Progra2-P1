@@ -1,6 +1,8 @@
 package main.java.ejercicio2;
 
 import main.java.interfaces.Ejecutable;
+import main.java.utils.ContextColor;
+import main.java.utils.UtilsColor;
 
 public class VariablesSimples implements Ejecutable {
     @Override
@@ -10,9 +12,14 @@ public class VariablesSimples implements Ejecutable {
         double altura = 1.83;
         boolean estudiante = true;
 
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Edad: " + edad + " años");
-        System.out.println("Altura: " + altura + "m");
-        System.out.println("Estudiante: " + estudiante);
+        // Resultados
+        System.out.print("Nombre: ");
+        UtilsColor.imprimirResultados(ContextColor.SUCCESS, nombre);
+        System.out.print("Edad: ");
+        UtilsColor.imprimirResultados(ContextColor.SUCCESS, edad +" años");
+        System.out.print("Altura: ");
+        UtilsColor.imprimirResultados(ContextColor.SUCCESS, altura +"m");
+        System.out.print("Estudiante: ");
+        UtilsColor.imprimirResultados(ContextColor.SUCCESS, String.valueOf(estudiante));
     }
 }

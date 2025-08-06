@@ -1,6 +1,8 @@
 package main.java.ejercicio3;
 
 import main.java.interfaces.Ejecutable;
+import main.java.utils.ContextColor;
+import main.java.utils.UtilsColor;
 
 import java.util.Scanner;
 
@@ -14,7 +16,10 @@ public class EntradaUsuario implements Ejecutable {
         System.out.print("Ingrese su edad: ");
         int edad = scanner.nextInt();
 
-        System.out.println("===Resultados===");
-        System.out.println("Nombre: " + nombre + ", Edad " + edad +" años");
+        UtilsColor.imprimirEncabezado();
+        System.out.print("Nombre: ");
+        UtilsColor.imprimirResultados(ContextColor.SUCCESS,nombre);
+        System.out.print("Edad: ");
+        UtilsColor.imprimirResultados(ContextColor.SUCCESS,edad+" años");
     }
 }
