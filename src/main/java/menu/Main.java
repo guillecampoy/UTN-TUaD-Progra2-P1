@@ -1,9 +1,10 @@
-package main.java.main;
+package main.java.menu;
 
 import main.java.ejercicio1.HolaMundo;
 import main.java.ejercicio2.VariablesSimples;
 import main.java.ejercicio3.EntradaUsuario;
 import main.java.ejercicio4.OperacionesAritmeticas;
+import main.java.ejercicio5.CaracteresEscape;
 import main.java.interfaces.Ejecutable;
 
 import java.util.Scanner;
@@ -63,7 +64,7 @@ public class Main {
             case 2 -> new VariablesSimples();
             case 3 -> new EntradaUsuario();
             case 4 -> new OperacionesAritmeticas();
-           // case 5 -> new ejercicio5.CaracteresEscape();
+            case 5 -> new CaracteresEscape();
            // case 6 -> new ejercicio6.ExpresionesInstrucciones();
            // case 7 -> new ejercicio7.ConversionesTipo();
            // case 8 -> new ejercicio8.ErrorEjemploCorregido();
