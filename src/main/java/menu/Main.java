@@ -8,6 +8,7 @@ import main.java.ejercicio5.CaracteresEscape;
 import main.java.ejercicio6.ExpresionesInstrucciones;
 import main.java.ejercicio7.ConversionesTipo;
 import main.java.ejercicio8.ErrorEjemploCorregido;
+import main.java.ejercicio9.PruebaEscritorio;
 import main.java.interfaces.Ejecutable;
 
 import java.util.Scanner;
@@ -71,7 +72,7 @@ public class Main {
             case 6 -> new ExpresionesInstrucciones();
             case 7 -> new ConversionesTipo();
             case 8 -> new ErrorEjemploCorregido();
-           // case 9 -> new ejercicio9.PruebaEscritorio();
+            case 9 -> new PruebaEscritorio();
            default -> null;
         };
     }
