@@ -17,22 +17,22 @@ La estructura del proyecto se organiza mediante un **menú en consola**, ubicado
 
 ---
 
-## 🗂️ Índice del proyecto (WIP)
+## 🗂️ Índice del proyecto
 
-- [src/main/java/Main.java](src/main/java/Main.java) – Menú de navegación por consola
-- [src/main/java/ejercicio1/HolaMundo.java](src/main/java/ejercicio1/HolaMundo.java) – Imprime mensaje inicial
-- [src/main/java/ejercicio2/VariablesSimples.java](src/main/java/ejercicio2/VariablesSimples.java) – Declaración y uso de variables
-- [src/main/java/ejercicio3/EntradaUsuario.java](src/main/java/ejercicio3/EntradaUsuario.java) – Scanner: nombre y edad
-- [src/main/java/ejercicio4/OperacionesAritmeticas.java](src/main/java/ejercicio4/OperacionesAritmeticas.java) – Suma, resta, multiplicación y división
-- [src/main/java/ejercicio5/CaracteresEscape.java](src/main/java/ejercicio5/CaracteresEscape.java) – Uso de `\n` y `\"`
-- [src/main/java/ejercicio6/ExpresionesInstrucciones.java](src/main/java/ejercicio6/ExpresionesInstrucciones.java) – Análisis de código
-- [src/main/java/ejercicio7/ConversionesTipo.java](src/main/java/ejercicio7/ConversionesTipo.java) – Comparación `int` vs `double`
-- [src/main/java/ejercicio8/ErrorEjemploCorregido.java](src/main/java/ejercicio8/ErrorEjemploCorregido.java) – Ejemplo con corrección y explicación
-- [src/main/java/ejercicio9/PruebaEscritorio.java](src/main/java/ejercicio9/PruebaEscritorio.java) – Análisis paso a paso
+- [src/main/java/menu/Main.java](src/main/java/menu/Main.java) – Menú de navegación por consola
+- [src/ejercicios/ejercicio1/HolaMundo.java](src/ejercicios/ejercicio1/HolaMundo.java) – Imprime mensaje inicial
+- [src/ejercicios/ejercicio2/VariablesSimples.java](src/ejercicios/ejercicio2/VariablesSimples.java) – Declaración y uso de variables
+- [src/ejercicios/ejercicio3/EntradaUsuario.java](src/ejercicios/ejercicio3/EntradaUsuario.java) – Scanner: nombre y edad
+- [src/ejercicios/ejercicio4/OperacionesAritmeticas.java](src/ejercicios/ejercicio4/OperacionesAritmeticas.java) – Suma, resta, multiplicación y división
+- [src/ejercicios/ejercicio5/CaracteresEscape.java](src/ejercicios/ejercicio5/CaracteresEscape.java) – Uso de `\n` y `\"`
+- [src/ejercicios/ejercicio6/ExpresionesInstrucciones.java](src/ejercicios/ejercicio6/ExpresionesInstrucciones.java) – Análisis de código
+- [src/ejercicios/ejercicio7/ConversionesTipo.java](src/ejercicios/ejercicio7/ConversionesTipo.java) – Comparación `int` vs `double`
+- [src/ejercicios/ejercicio8/ErrorEjemploCorregido.java](src/ejercicios/ejercicio8/ErrorEjemploCorregido.java) – Ejemplo con corrección y explicación
+- [src/ejercicios/ejercicio9/PruebaEscritorio.java](src/ejercicios/ejercicio9/PruebaEscritorio.java) – Análisis paso a paso
 
 ---
 
-## 📄 Consideraciones (WIP)
+## 📄 Consideraciones
 
 - El menú permite seleccionar cada ejercicio para su ejecución individual.
 - El código está estructurado en paquetes por ejercicio (`ejercicio1`, `ejercicio2`, etc.).
