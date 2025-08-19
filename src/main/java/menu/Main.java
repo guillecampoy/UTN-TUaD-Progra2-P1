@@ -1,14 +1,14 @@
 package main.java.menu;
 
-import main.java.ejercicio1.HolaMundo;
-import main.java.ejercicio2.VariablesSimples;
-import main.java.ejercicio3.EntradaUsuario;
-import main.java.ejercicio4.OperacionesAritmeticas;
-import main.java.ejercicio5.CaracteresEscape;
-import main.java.ejercicio6.ExpresionesInstrucciones;
-import main.java.ejercicio7.ConversionesTipo;
-import main.java.ejercicio8.ErrorEjemploCorregido;
-import main.java.ejercicio9.PruebaEscritorio;
+import ejercicios.ejercicio1.HolaMundo;
+import ejercicios.ejercicio2.VariablesSimples;
+import ejercicios.ejercicio3.EntradaUsuario;
+import ejercicios.ejercicio4.OperacionesAritmeticas;
+import ejercicios.ejercicio5.CaracteresEscape;
+import ejercicios.ejercicio6.ExpresionesInstrucciones;
+import ejercicios.ejercicio7.ConversionesTipo;
+import ejercicios.ejercicio8.ErrorEjemploCorregido;
+import ejercicios.ejercicio9.PruebaEscritorio;
 import main.java.interfaces.Ejecutable;
 
 import java.util.Scanner;

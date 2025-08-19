@@ -1,10 +1,8 @@
-package main.java.ejercicio8;
+package ejercicios.ejercicio8;
 
 import main.java.interfaces.Ejecutable;
 import main.java.utils.ContextColor;
 import main.java.utils.UtilsColor;
-
-import java.util.Scanner;
 
 public class ErrorEjemploCorregido implements Ejecutable {
     @Override

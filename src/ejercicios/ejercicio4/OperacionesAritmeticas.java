@@ -1,4 +1,4 @@
-package main.java.ejercicio4;
+package ejercicios.ejercicio4;
 
 import main.java.interfaces.Ejecutable;
 import main.java.utils.ContextColor;

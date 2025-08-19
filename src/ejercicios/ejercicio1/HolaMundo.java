@@ -1,4 +1,4 @@
-package main.java.ejercicio1;
+package ejercicios.ejercicio1;
 
 import main.java.interfaces.Ejecutable;
 

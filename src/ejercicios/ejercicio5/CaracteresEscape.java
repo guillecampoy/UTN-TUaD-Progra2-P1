@@ -1,10 +1,8 @@
-package main.java.ejercicio5;
+package ejercicios.ejercicio5;
 
 import main.java.interfaces.Ejecutable;
 import main.java.utils.ContextColor;
 import main.java.utils.UtilsColor;
-
-import java.util.Scanner;
 
 public class CaracteresEscape implements Ejecutable {
     @Override
